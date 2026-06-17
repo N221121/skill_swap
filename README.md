@@ -3,6 +3,17 @@
 A full-stack web application that enables users to exchange skills with each other.
 Users can list skills they can teach, request skills they want to learn, and connect with others for mutual learning.
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](assets/screenshot1.png)
+
+### 📊 Dashboard
+![Dashboard](assets/screenshot2.png)
+
+### 🔁 Skill Requests
+![Requests](assets/screenshot3.png)
+
 ## 🚀 Features
 👤 User registration and login
 🧑‍🏫 Add skills you can teach
