@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+    name="viewport"
+    content=
+    "width=device-width,
+    initial-scale=1.0">
+
+    <title>
+        Skill Swap Platform
+    </title>
+
+    <link
+    rel="stylesheet"
+    href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HERO -->
+
+        <div class="hero">
+
+            <h1>
+                Skill Swap Platform
+            </h1>
+
+            <p>
+                Exchange skills,
+                connect with learners,
+                and grow together.
+            </p>
+
+        </div>
+
+
+        <!-- REGISTER FORM -->
+
+        <div class="glass-card">
+
+            <h2>
+                Register User
+            </h2>
+
+            <form id="userForm">
+
+                <div class="input-group">
+
+                    <input
+                    type="text"
+                    id="name"
+                    placeholder=
+                    "Full Name"
+                    required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <input
+                    type="email"
+                    id="email"
+                    placeholder=
+                    "Email Address"
+                    required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <input
+                    type="text"
+                    id="skillsHave"
+                    placeholder=
+                    "Skills You Have (comma separated)">
+
+                </div>
+
+                <div class="input-group">
+
+                    <input
+                    type="text"
+                    id="skillsWant"
+                    placeholder=
+                    "Skills You Want (comma separated)">
+
+                </div>
+
+                <button type="submit">
+
+                    Register User
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- REGISTERED USERS -->
+
+        <section>
+
+            <div class="section-header">
+
+                <h2>
+                    Registered Users
+                </h2>
+
+            </div>
+
+            <div
+            id="usersList"
+            class="users-grid">
+            </div>
+
+        </section>
+
+
+        <!-- SKILL REQUESTS -->
+
+        <section
+        class="requests-section">
+
+            <div
+            class="section-header">
+
+                <h2>
+                    Skill Requests
+                </h2>
+
+            </div>
+
+            <div
+            id="requestsList"
+            class="users-grid">
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- EDIT USER MODAL -->
+
+    <div
+    id="editModal"
+    class="modal hidden">
+
+        <div
+        class="modal-content">
+
+            <h2>
+                Edit User
+            </h2>
+
+            <input
+            type="text"
+            id="editName"
+            placeholder="Name">
+
+            <input
+            type="email"
+            id="editEmail"
+            placeholder="Email">
+
+            <input
+            type="text"
+            id="editSkillsHave"
+            placeholder=
+            "Skills Have">
+
+            <input
+            type="text"
+            id="editSkillsWant"
+            placeholder=
+            "Skills Want">
+
+            <div
+            class="modal-buttons">
+
+                <button
+                id="saveEdit">
+
+                    Save
+
+                </button>
+
+                <button
+                onclick=
+                "closeModal()">
+
+                    Cancel
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script
+    src="script.js">
+    </script>
+
+</body>
+</html>
